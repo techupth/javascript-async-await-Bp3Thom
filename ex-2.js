@@ -13,3 +13,11 @@ let getJohnProfile = () => {
 };
 
 // Start coding here
+function handleData(data){
+  console.log(data)
+};
+function handleReject(data){
+  console.log(data)
+};
+
+getJohnProfile().then(handleData).catch(handleReject);
